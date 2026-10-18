@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "rolenametag",
+  "version": "${version}",
+  "name": "RankTag for DonutSMP",
+  "description": "Role icons (media / member / staff) before player names on DonutSMP, including your own in third person.",
+  "environment": "client",
+  "entrypoints": { "client": ["fr.rolenametag.RoleNametagClient"] },
+  "mixins": ["rolenametag.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
